@@ -1,0 +1,42 @@
+
+.header {
+  justify-content: space-around;
+  background: #333333;
+  align-items: center;
+  color: gold;
+  padding: 15px 100px;
+
+  &-logo {
+      font-weight:600;
+      font-size: 28px;
+      &-subtext {
+          font-weight:400;
+          display: block;
+          font-size:12px;
+      }
+  }
+
+  &-icons {
+      text-align: right;
+      &-cart {
+          display:inline-block;
+          padding:15px;
+          cursor: pointer;
+      }
+      &-profile {
+        i {
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        display: inline-block;
+        &-image {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+    }
+  }
+}
